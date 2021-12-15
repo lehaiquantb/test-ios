@@ -87,7 +87,7 @@
                                                 <constraint firstAttribute="height" constant="44" id="gGN-wd-Jf8"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
+                                            <buttonConfiguration key="configuration" style="plain" title="">
                                                 <backgroundConfiguration key="background" image="arrowshape.turn.up.right.circle.fill" catalog="system"/>
                                             </buttonConfiguration>
                                         </button>
