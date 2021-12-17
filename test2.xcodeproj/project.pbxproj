@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8366EC2769CE0000B145D5 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8366EB2769CE0000B145D5 /* ReminderListCell.swift */; };
 		AA98CEA52768629A00E9EBF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98CEA42768629A00E9EBF2 /* AppDelegate.swift */; };
 		AA98CEA72768629A00E9EBF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98CEA62768629A00E9EBF2 /* SceneDelegate.swift */; };
-		AA98CEA92768629A00E9EBF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98CEA82768629A00E9EBF2 /* ViewController.swift */; };
+		AA98CEA92768629A00E9EBF2 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA98CEA82768629A00E9EBF2 /* ReminderListViewController.swift */; };
 		AA98CEAC2768629A00E9EBF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA98CEAA2768629A00E9EBF2 /* Main.storyboard */; };
 		AA98CEAE2768629B00E9EBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA98CEAD2768629B00E9EBF2 /* Assets.xcassets */; };
 		AA98CEB12768629B00E9EBF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA98CEAF2768629B00E9EBF2 /* LaunchScreen.storyboard */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA8366EB2769CE0000B145D5 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 		AA98CEA12768629A00E9EBF2 /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA98CEA42768629A00E9EBF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA98CEA62768629A00E9EBF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA98CEA82768629A00E9EBF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA98CEA82768629A00E9EBF2 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		AA98CEAB2768629A00E9EBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA98CEAD2768629B00E9EBF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA98CEB02768629B00E9EBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,9 +60,10 @@
 		AA98CEA32768629A00E9EBF2 /* test2 */ = {
 			isa = PBXGroup;
 			children = (
+				AA8366EB2769CE0000B145D5 /* ReminderListCell.swift */,
 				AA98CEA42768629A00E9EBF2 /* AppDelegate.swift */,
 				AA98CEA62768629A00E9EBF2 /* SceneDelegate.swift */,
-				AA98CEA82768629A00E9EBF2 /* ViewController.swift */,
+				AA98CEA82768629A00E9EBF2 /* ReminderListViewController.swift */,
 				AA98CEAA2768629A00E9EBF2 /* Main.storyboard */,
 				AA98CEAD2768629B00E9EBF2 /* Assets.xcassets */,
 				AA98CEAF2768629B00E9EBF2 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA98CEA92768629A00E9EBF2 /* ViewController.swift in Sources */,
+				AA98CEA92768629A00E9EBF2 /* ReminderListViewController.swift in Sources */,
+				AA8366EC2769CE0000B145D5 /* ReminderListCell.swift in Sources */,
 				AA98CEA52768629A00E9EBF2 /* AppDelegate.swift in Sources */,
 				AA98CEA72768629A00E9EBF2 /* SceneDelegate.swift in Sources */,
 				AA98CEBB27689E6700E9EBF2 /* Reminder.swift in Sources */,
@@ -293,6 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFR6QFS3U3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = test2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFR6QFS3U3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = test2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
